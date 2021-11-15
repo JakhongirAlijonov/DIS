@@ -45,6 +45,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .site-name-link {
@@ -64,6 +65,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .site-nav-item {
@@ -74,6 +76,14 @@ body {
 .site-nav-item-link {
     text-decoration: none;
     color: rgba(31, 46, 53, 0.8);
+}
+
+.site-nav-item-link:hover {
+    opacity: 0.8;
+}
+
+.site-nav-item-link:active {
+    opacity: 0.6;
 }
 
 .client::after,
@@ -91,6 +101,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .nav-logo-item {
@@ -116,6 +127,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    flex-wrap: wrap;
     margin-top: 110px;
 }
 
@@ -157,6 +169,14 @@ body {
     margin-top: 24px;
     border-radius: 4px;
     font-size: 20px;
+}
+
+.global-link:hover {
+    opacity: 0.8;
+}
+
+.global-link:active {
+    opacity: 0.6;
 }
 
 .info-section-img {
@@ -241,4 +261,80 @@ body {
 .service {
     width: 329px;
     margin-right: 43px;
+}
+
+.technology {
+    width: 329px;
+}
+
+.site-footer {
+    width: 1126px;
+    display: flex;
+    justify-content: flex-start;
+    align-self: center;
+    flex-wrap: wrap;
+}
+
+.address {
+    margin-top: 146px;
+}
+
+.site-footer-logo-img {
+    margin-bottom: 10px;
+}
+
+.footer-adres-title {
+    margin: 0;
+    color: #263238;
+    font-weight: 500;
+    line-height: 21px;
+}
+
+.site-footer-adres {
+    width: 317px;
+    color: #263238;
+    line-height: 27px;
+    margin-top: 8px;
+    font-size: 300;
+}
+
+.contacts {
+    width: 269px;
+    margin-top: 185px;
+    margin-left: 47px;
+}
+
+.contact-title {
+    color: #263238;
+    font-weight: 500;
+    margin: 0;
+}
+
+.contact-text {
+    margin-top: 15px;
+    font-size: 300;
+    line-height: 27px;
+    color: #263238;
+}
+
+.tel,
+.mail {
+    display: inline-block;
+    color: #263238;
+    text-decoration: none;
+}
+
+.site-footer-bottom {
+    margin-top: 46px;
+}
+
+.copyright {
+    padding: 22px 529px;
+    background-color: #EE4248;
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Roboto ', sans-serif;
+    color: #fff;
+    margin-bottom: 0;
 }
