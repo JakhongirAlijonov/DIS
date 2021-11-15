@@ -241,6 +241,7 @@ body {
 
 .services-item {
     list-style: none;
+    margin-bottom: auto;
 }
 
 .product {
