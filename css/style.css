@@ -162,3 +162,83 @@ body {
 .info-section-img {
     width: 50%;
 }
+
+.indonesia-section {
+    margin-top: 163px;
+    background-color: #F6F6F6;
+}
+
+.indi-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.indi-section-img {
+    margin-right: 82px;
+}
+
+.indi-section-text {
+    margin-top: 57px;
+}
+
+.indi-section-title {
+    width: 454px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 43px;
+}
+
+.DSi {
+    color: #EE4248;
+    font-weight: 500;
+}
+
+.indi-section-span {
+    color: #EE4248;
+}
+
+.indi-section-paragraf {
+    color: #30444E;
+    line-height: 27px;
+}
+
+.services {
+    margin-top: 116px;
+    width: 1126px;
+}
+
+.service-section-title {
+    text-align: center;
+}
+
+.services-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 57px;
+}
+
+.services-item {
+    list-style: none;
+}
+
+.product {
+    margin-right: 53px;
+    width: 319px;
+}
+
+.article-title {
+    font-size: 28px;
+    line-height: 37px;
+    align-self: center;
+}
+
+.article-text {
+    line-height: 27px;
+}
+
+.service {
+    width: 329px;
+    margin-right: 43px;
+}
