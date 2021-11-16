@@ -1,9 +1,16 @@
 /* GLOBAL */
 
-*,
-*::before,
-*::after {
+* {
     box-sizing: border-box;
+}
+
+*:focus {
+    outline-offset: 4px;
+    outline: 2px solid #EE4248;
+}
+
+body {
+    margin: 0;
 }
 
 html {
@@ -22,10 +29,10 @@ body {
 /* CONTAINER */
 
 .container {
-    max-width: 1500px;
+    max-width: 1756px;
     width: 100%;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 157px;
+    padding-right: 158px;
     margin-left: auto;
     margin-right: auto;
     font-size: 18px;
@@ -45,7 +52,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
 }
 
 .site-name-link {
@@ -65,12 +71,16 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
+    margin-left: 45px;
 }
 
 .site-nav-item {
     list-style: none;
     margin-left: 50px;
+}
+
+.site-nav-item:first-child {
+    margin-left: 0;
 }
 
 .site-nav-item-link {
@@ -84,6 +94,7 @@ body {
 
 .site-nav-item-link:active {
     opacity: 0.6;
+    color: #EE4248;
 }
 
 .client::after,
@@ -101,7 +112,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
 }
 
 .nav-logo-item {
@@ -226,10 +236,13 @@ body {
 .services {
     margin-top: 116px;
     width: 1126px;
+    margin-left: 0;
 }
 
 .service-section-title {
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .services-list {
@@ -237,6 +250,8 @@ body {
     justify-content: space-between;
     align-items: center;
     margin-top: 57px;
+    margin: 0;
+    padding: 0;
 }
 
 .services-item {
@@ -274,6 +289,7 @@ body {
     justify-content: flex-start;
     align-self: center;
     flex-wrap: wrap;
+    margin-left: 0;
 }
 
 .address {
